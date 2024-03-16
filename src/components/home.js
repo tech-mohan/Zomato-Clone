@@ -16,7 +16,7 @@ class Home extends React.Component {
     sessionStorage.clear();
     axios({
       method:'GET',
-      url:'http://localhost:8090/locations',
+      url:'https://zomatoo-api.onrender.com/locations',
       headers:{'Content-Type':'application/json'}
 
     })
@@ -27,7 +27,7 @@ class Home extends React.Component {
     // mealtypes
     axios({
       method:'GET',
-      url:'http://localhost:8090/mealtypes',
+      url:'https://zomatoo-api.onrender.com/mealtypes',
       headers:{'Content-Type':'application/json'}
 
     })
