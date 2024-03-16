@@ -32,7 +32,7 @@ class Filter extends React.Component {
 
         axios({
             method:'POST',
-            url:'http://localhost:8090/filter',
+            url:'https://zomatoo-api.onrender.com/restaurants/filter',
             headers:{'Content-Type':'application/json'},
             data : filterObj
       
@@ -43,7 +43,7 @@ class Filter extends React.Component {
           .catch(err=> console.log(err))
           axios({
             method:'GET',
-            url:'http://localhost:8090/locations',
+            url:'https://zomatoo-api.onrender.com/restaurants/locations',
             headers:{'Content-Type':'application/json'}
       
           })
@@ -70,7 +70,7 @@ class Filter extends React.Component {
         }
         axios({
             method:'POST',
-            url:'http://localhost:8090/filter',
+            url:'https://zomatoo-api.onrender.com/filter',
             headers:{'Content-Type':'application/json'},
             data : filterObj
       
@@ -103,7 +103,7 @@ class Filter extends React.Component {
        }
        axios({
            method:'POST',
-           url:'http://localhost:8090/filter',
+           url:'https://zomatoo-api.onrender.com/filter',
            headers:{'Content-Type':'application/json'},
            data : filterObj
      
@@ -128,7 +128,7 @@ class Filter extends React.Component {
        }
        axios({
            method:'POST',
-           url:'http://localhost:8090/filter',
+           url:'https://zomatoo-api.onrender.com/filter',
            headers:{'Content-Type':'application/json'},
            data : filterObj
      
@@ -154,7 +154,7 @@ class Filter extends React.Component {
         }
         axios({
             method:'POST',
-            url:'http://localhost:8090/filter',
+            url:'https://zomatoo-api.onrender.com/filter',
             headers:{'Content-Type':'application/json'},
             data : filterObj
       
