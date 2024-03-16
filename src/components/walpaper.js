@@ -18,7 +18,7 @@ class Walpaper extends React.Component{
   
   axios({
     method:'GET',
-    url:`http://localhost:8090/locations/${locationId}`,
+    url:`https://zomatoo-api.onrender.com/locations/${locationId}`,
     headers:{'Content-Type':'application/json'}
 
   })
