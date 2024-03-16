@@ -32,7 +32,7 @@ class Filter extends React.Component {
 
         axios({
             method:'POST',
-            url:'https://zomatoo-api.onrender.com/restaurants/filter',
+            url:'https://zomatoo-api.onrender.com/filter',
             headers:{'Content-Type':'application/json'},
             data : filterObj
       
@@ -43,7 +43,7 @@ class Filter extends React.Component {
           .catch(err=> console.log(err))
           axios({
             method:'GET',
-            url:'https://zomatoo-api.onrender.com/restaurants/locations',
+            url:'https://zomatoo-api.onrender.com/locations',
             headers:{'Content-Type':'application/json'}
       
           })
