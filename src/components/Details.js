@@ -50,7 +50,7 @@ constructor(){
 
       axios({
         method:'GET',
-        url:`http://localhost:8090/restaurants/${restaurant}`,
+        url:`https://zomatoo-api.onrender.com/restaurants/${restaurant}`,
         headers:{'Content-Type':'application/json'}
   
       })
@@ -77,7 +77,7 @@ constructor(){
 
       axios({
         method:'GET',
-        url:`http://localhost:8090/getmenu/${resId}`,
+        url:`https://zomatoo-api.onrender.com/getmenu/${resId}`,
         headers:{'Content-Type':'application/json'}
   
       })
@@ -150,7 +150,7 @@ constructor(){
     }
     getData = async (data) => {
       try {
-        const response = await fetch('http://localhost:8090/payment', {
+        const response = await fetch('https://zomatoo-api.onrender.com/restaurants/payment', {
           method: "POST", headers: {
             Accept: "application/json",
             "Content-Type": "application/json"
