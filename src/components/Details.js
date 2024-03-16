@@ -150,7 +150,7 @@ constructor(){
     }
     getData = async (data) => {
       try {
-        const response = await fetch('https://zomatoo-api.onrender.com/restaurants/payment', {
+        const response = await fetch('https://zomatoo-api.onrender.com/payment', {
           method: "POST", headers: {
             Accept: "application/json",
             "Content-Type": "application/json"
