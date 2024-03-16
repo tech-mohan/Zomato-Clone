@@ -1,0 +1,85 @@
+.walpaper{
+     width: 100%;
+    height: 450px;
+    filter: brightness(60%);
+    
+}
+
+#top
+{
+    text-align: center;
+    position: absolute;
+    top: 150px;
+    left: 380px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.searchLocation{
+    padding: 0.5rem;
+    width: 16rem;
+}
+.searchRestaurent{
+    padding: 0.5rem;
+    width: 16rem;
+}
+ul{
+    padding: 0.5rem;
+    width: 16rem;
+    margin: 0;
+}
+ul>li{
+    background-color: wheat;
+    cursor: pointer;
+    font-size: small;
+    color: black;
+    border: 0.5px solid gray;
+    padding: 2px;
+}
+
+.inputs{
+    display: flex;
+}
+.quickHeading{
+    padding-left: 40px;
+}
+.content{
+    color: gray;
+}
+.qstxt{
+    color: gray;
+}
+.quickSearchItems{
+    display:inline-flex;
+    margin-left: 40px;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.qsitems{
+    width: 400px;
+    display: flex;
+    box-shadow: 5px 5px 10px 2px gray ;
+
+}
+.qsiimg{
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
+
+@media all and (min-width:500px) and (max-width:800px) {
+    #top{
+        left: 80px;
+    }
+    .inputs{
+        display: block;
+        margin-left: 0px;
+    }
+  
+.quickSearchItems{
+    display: block;
+    justify-content: center;
+}
+}

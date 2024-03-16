@@ -1,0 +1,85 @@
+.filterpage{
+    display: flex;
+    margin-top: 2rem;
+}
+
+.leftside{
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 5px;
+    margin-right: 1rem;
+    box-shadow: 5px 5px 10px 2px gray ;
+}
+
+.shops{
+    box-shadow: 5px 5px 10px 2px gray ;
+    height: 20rem;
+    /* width: 50rem; */
+}
+
+.FRow{
+    display: flex;
+    border-bottom: 1px solid lightsteelblue;
+}
+
+.img{
+    height: 10rem;
+    width: 10rem;
+    padding: 2rem;
+    
+}
+
+.text{
+    padding: 1rem;
+
+}
+
+.SRow{
+    padding-left: 2rem;
+}
+.b{
+    margin-left: 30rem;
+    width: 50rem;
+    margin-top: 2rem;
+}
+
+.page-num{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 4px;
+    margin: 2px;
+}
+.NoRecords{
+    font-size: large;
+    font-weight: bold;
+    color: red;
+    /* margin-left: 22rem; */
+    width: 850px;
+    text-align: center;
+    
+}
+@media all and (min-width:400px) and (max-width:800px) {
+    .filterpage{
+        display: block;
+        margin-top: 2rem;
+        width: 450px;
+    }
+    .leftside{
+        margin-left: 3rem;
+    }
+    .shops{
+        width: 388px;
+        margin-top: 5px;
+        margin-left: 3rem;
+
+    }
+    .b{
+        margin-left: 10rem;
+        margin-top: 2rem;
+        width: 370px;
+    }
+    .NoRecords{
+        text-align: center;
+        width: 370px;
+    }
+}

@@ -1,0 +1,70 @@
+.navbar {
+    background-color: red;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.navbar .auth-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.navbar .auth-buttons button {
+    padding: 5px 10px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.navbar .auth-buttons .create-account-button {
+    border: 2px solid white;
+}
+
+.navbar .circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.navbar .circle-text {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+}
+.LoginModal>h2{
+    text-align: center;
+    color: darkslategray;
+}
+.LoginModal>input{
+    margin: 1rem;
+    padding: 10px;
+    border-radius: 10px ;
+    
+}
+.btn{
+    margin-left: 2.5rem;
+}
+.LoginModal>div>button{
+    padding: 8px;
+    margin: 10px;
+    background-color: darkslategray;
+    border-radius: 5px;
+    color:whitesmoke;
+}
+.LoginModal>div>button:hover{
+    cursor: pointer;
+    background-color: black;
+}

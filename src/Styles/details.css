@@ -1,0 +1,70 @@
+.carousel-inner > .item {
+    height: 400px;
+ }
+ .carousel{
+    height:450px;
+ }
+.img1{
+    height: 450px;
+}
+.top{
+    display: flex;
+    background-color: transparent;
+    padding: 5px;
+    justify-content: space-between;
+ }
+.heading{
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+.btn-order{
+    padding: 5px;
+    background-color:red;
+    color: white;
+    cursor: pointer;
+    border: 1px solid gray;
+}
+.det,.cost,.contact{
+    display: flex;
+    
+}
+.head   {
+    font-weight: bold;
+}
+
+.add-button,.add-number{
+    position: absolute;
+    margin-left: 21px;
+    margin-top: -10px;
+    height: 30px;
+}
+.row{
+    display: flex;
+}
+.pay-button{
+    margin-left: 10px;
+    background-color:red;
+    color:white;
+    padding:8px;
+    cursor: pointer;
+
+
+}
+.pay-button:hover{
+    background-color: white;
+    color: red;
+}
+.form-modal{
+    width: 350px;
+    margin-left: 4rem;
+}
+
+.label{
+    margin: 20px;
+}
+.input{
+    margin: 20px;
+    padding: 10px;
+    
+}
