@@ -69,7 +69,7 @@ ul>li{
     margin: 5px;
 }
 
-@media all and (min-width:500px) and (max-width:800px) {
+@media all and (min-width:350px) and (max-width:800px) {
     #top{
         left: 80px;
     }
@@ -78,8 +78,4 @@ ul>li{
         margin-left: 0px;
     }
   
-.quickSearchItems{
-    display: block;
-    justify-content: center;
-}
 }
