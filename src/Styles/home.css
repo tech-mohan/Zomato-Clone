@@ -69,7 +69,7 @@ ul>li{
     margin: 5px;
 }
 
-@media all and (min-width:350px) and (max-width:800px) {
+@media all and (min-width:350px) and (max-width:900px) {
     #top{
         left: 80px;
     }
