@@ -58,7 +58,7 @@
     text-align: center;
     
 }
-@media all and (min-width:400px) and (max-width:800px) {
+@media all and (min-width:350px) and (max-width:800px) {
     .filterpage{
         display: block;
         margin-top: 2rem;
